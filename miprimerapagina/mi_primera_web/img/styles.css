@@ -1,0 +1,93 @@
+/*Encabezado*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+        }
+        .Titulos {
+        width: 90%;
+        margin: 0 auto;
+        }
+    /* Aquí puedes escribir los estilos que se aplicarán en pantallas más pequeñas */
+  }
+
+  @media (min-width: 769px){
+    body {
+        font-size: 18px;
+        }
+        .Titulos {
+        width: 80%;
+        margin: 0 auto;
+
+        }
+  }
+.Titulos{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  box-sizing: border-box;
+  text-decoration:wavy;
+ 
+  list-style-type: none;
+  width: 100%;
+  background-color: rgb(5, 2, 219);
+  border-image-outset: 0cap;
+ 
+}
+
+.Imagenes{
+
+background-color: #d4c005;
+padding: 2px;
+font-weight: bold;
+cursor: pointer;
+
+}
+.list{
+    display: flex;
+    text-align: left;
+}
+
+.button {
+    display: flex;
+color: black;
+background-color: aqua;
+font-weight: bold;
+padding: 20px;
+text-align: center;
+border: 2px solid #555;
+border-radius: 5px;
+cursor: pointer;
+width: 90%;
+}
+p {
+    display: flex;
+    padding: 2%;
+    border: 10px solid black;
+    margin: 10px 10px 10px 10px;
+    background-color: rgb(32, 197, 197);
+font-style: oblique;
+font-size: x-large;
+color: blueviolet;
+}
+ol{
+    background-color: brown;
+}
+.Primera_seccion{
+    
+background-color: aquamarine;
+}
+.button{
+background-color: rgb(7, 7, 168);
+}
+
+.Escudo{
+   
+    bottom: 0;
+    right: 0;
+}
